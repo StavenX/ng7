@@ -1,0 +1,34 @@
+.gray {
+    color: gray; 
+}
+
+.large {
+    font-size: 4em; 
+}
+
+.black {
+    color: black; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;padding: 0;
+
+    li {
+        background: #218891;
+        padding: 2em;
+        border-radius: 4px;
+        margin-bottom: 7px;
+        display: grid;
+
+        p {
+            font-weight: bold;
+            margin-left: 20px;
+        }
+
+        img {
+            border-radius: 50%;
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,81 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+:root {
+    --main_bg_colour: #07263b;
+    --info_bg_colour: #0c3048; 
+}
+
+body, html {
+    height: 100%;
+    margin: 0 auto;
+    background-color: #07263b;
+
+    /* TEXT COLOUR */
+    color: white;
+}
+
+body {
+    font-family: 'Montserrat';
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1.3em;
+    display: grid;
+    grid-template-columns: 30% auto;
+
+    a {
+        color: white;
+    }
+}
+
+section {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+input[type=text] {
+    padding: 0;
+    height: 30px;
+    position: relative;
+    left: 0;
+    outline: none;
+    border: 1px solid #cdcdcd;
+    border-color: rgba(0, 0, 0, .15);
+    background-color: white;
+    font-size: 16px;
+}
+
+.infoBox {
+    ul {
+        list-style-type: none;
+        margin: 0;padding: 0;
+
+        li {
+            background: #0c3048;
+            padding: 2em;
+            border-radius: 4px;
+            margin-bottom: 7px;
+            display: grid;
+            grid-template-columns: 60px auto;
+
+            p {
+                font-weight: bold;
+                margin-left: 20px;
+            }
+
+            img {
+                border-radius: 50%;
+                width: 100%;
+            }
+        }
+    }
+}

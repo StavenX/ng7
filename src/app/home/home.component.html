@@ -1,0 +1,28 @@
+<!-- The Gray class will only be attached if the boolean 'h1Style' = true 
+<h1 [class.gray]="h1Style">Home</h1>
+-->
+
+<!--
+<h1 [ngClass]="{
+  'gray': h1Style,
+  'large': !h1Style
+}">Home</h1>
+-->
+
+<!-- If h1Style is 'true', use 'gray'. Else use 'black' -->
+<!-- <h1 [style.color]="h1Style ? 'gray': 'black'">Home</h1> -->
+
+<!-- 
+  <h1 [ngStyle]="{
+  'color': h1Style ? 'gray' : 'black',
+  'font-size': !h1Style ? '1em' : '4em'
+}">Home</h1>
+-->
+
+<h1>Home</h1>
+
+<p>This is a homepage.</p>
+<p>You may navigate with the buttons located on the top-menu.</p>
+
+
+<!-- <button (click)="firstClick()">Click Me</button> -->
